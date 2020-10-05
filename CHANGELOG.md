@@ -4,9 +4,15 @@
 
 ## [Unreleased]
 
+## [0.4.0] - 2020-10-05
+
+### Changed
+
+- README.md added `<your-folder-name>` to git clone install method
+
 ## [0.3.0] - 2020-10-05
 
-### Change
+### Changed
 
 - README.md typo corrections
 

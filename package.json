@@ -1,6 +1,6 @@
 {
     "name": "hgod_wp_env",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "WordPress dev environment.",
     "main": "index.js",
     "author": "Henrique Godinho",

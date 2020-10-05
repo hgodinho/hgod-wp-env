@@ -33,7 +33,7 @@ Go to: [Changelog](changelog.md) | [License](license.txt) | [References](referen
 
 Start with a simple clone
 
-`git clone https://github.com/hgodinho/hgod-wp-env.git`
+`git clone https://github.com/hgodinho/hgod-wp-env.git <your-folder-name>`
 
 Then do a `npm install`, this may take a time — go grab a coffee.
 
