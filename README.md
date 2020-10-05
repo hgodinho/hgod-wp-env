@@ -8,12 +8,12 @@ Go to: [Changelog](changelog.md) | [License](license.txt) | [References](referen
 
 #### Table of Contents
 
-  1. [Features](##Features)
-  2. [Requirements]($#Requirements)
-  3. [Install](##Install)
-  4. [Usage](##Usage)
-  5. [Node scripts](##Nodescripts)
-  6. [Composer scripts](##Composerscripts)
+  1. [Features](#features)
+  2. [Requirements](#requirements)
+  3. [Install](#install)
+  4. [Usage](#usage)
+  5. [Node scripts](#node-scripts)
+  6. [Composer scripts](#composer-scripts)
 
 ## 1. Features
 
