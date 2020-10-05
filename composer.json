@@ -1,0 +1,24 @@
+{
+    "name": "hgodinho/hgod_wp_env",
+    "description": "WordPress dev environment.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique Godinho",
+            "email": "hnrq.godinho@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6",
+        "phpcompatibility/phpcompatibility-wp": "*",
+        "wp-coding-standards/wpcs": "^0.14.0",
+        "automattic/vipwpcs": "*", 
+        "wp-cli/wp-cli-bundle": "*"
+    },
+    "scripts": {
+        "phpcs": "php vendor/squizlabs/php_codesniffer/bin/phpcs --standard=WordPress",
+        "phpcbf": "php vendor/squizlabs/php_codesniffer/bin/phpcbf --standard=WordPress"
+    }
+}
