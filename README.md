@@ -144,7 +144,7 @@ To run the following scripts prepend the script name with `npm run`
 * **`npm run assets`** Gulp task to minify the images at the `src/assets` folder and save to `dist/assets`.
 * **`npm run css`** *Gulp task* to convert the `sass` files to `css`. If the flag `--prod` is passed, the css will be cleaned, autoprefixed and minified.
 * **`npm run eslint`** *Gulp task* to eslint your js files.
-* **`npm run js`** *Gulp task* to call all the js tasks below, pass the flaf `--prod` to produce uglified versions of the js files.
+* **`npm run js`** *Gulp task* to call all the js tasks below, pass the flag `--prod` to produce uglified versions of the js files.
 * **`npm run js-build`** *Gulp task* that do babel on files, concat all the files into one, and if the flag `--prod` is passed, the files will be uglified.
 * **`npm run js-deps`** *Gulp Taks* to concat all deps into one file.
 * **`npm run js-concat`** and **`npm run js-concat-min`** *Gulp tasks* to concatenate all the build js and deps files into one, if the `js-concat-min` is called than the results will be minified.
@@ -173,4 +173,4 @@ After the script name insert your file path.
 Example: `composer run-script phpcs src/php/class-my-class.php`
 
 * **`composer run-script phpcs`** do the codesniffer for php, it will throw all the problems with your code at the terminal.
-* **`composer run-script phpcbf`** similar `phpcs`, but also fix all the fixable problems.
+* **`composer run-script phpcbf`** similar to `phpcs`, but also fix all the fixable problems.

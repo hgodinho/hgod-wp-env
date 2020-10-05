@@ -4,11 +4,19 @@
 
 ## [Unreleased]
 
-## [0.1.0] - 2020-10-04
+## [0.3.0] - 2020-10-05
+
+### Change
+
+- README.md typo corrections
+
+## [0.2.0] - 2020-10-04
 
 ### Changed
 
-- README.md
+- README.md toc correction
+
+## [0.1.0] - 2020-10-04
 
 ### Added
 
