@@ -6,6 +6,10 @@
 
 ## [0.1.0] - 2020-10-04
 
+### Changed
+
+- README.md
+
 ### Added
 
 - .eslintrc.json
