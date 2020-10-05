@@ -8,12 +8,12 @@ Go to: [Changelog](changelog.md) | [License](license.txt) | [References](referen
 
 #### Table of Contents
 
-  1. [Features](#Features)
-  2. [Requirements](#Requirements)
-  3. [Install](#Install)
-  4. [Usage](#Usage)
-  5. [Node scripts](#Nodescripts)
-  6. [Composer scripts](#Composerscripts)
+  1. [Features](##Features)
+  2. [Requirements]($#Requirements)
+  3. [Install](##Install)
+  4. [Usage](##Usage)
+  5. [Node scripts](##Nodescripts)
+  6. [Composer scripts](##Composerscripts)
 
 ## 1. Features
 
@@ -33,7 +33,7 @@ Go to: [Changelog](changelog.md) | [License](license.txt) | [References](referen
 
 Start with a simple clone
 
-`git clone whiskas-sachet`
+`git clone https://github.com/hgodinho/hgod-wp-env.git`
 
 Then do a `npm install`, this may take a time — go grab a coffee.
 
