@@ -1,3 +1,15 @@
+# remove distributor folders from git tracker
 node_modules
 vendor
+
+# Remove files inside the tmp folder, but mantain the folder
+# you probably won't need to tracker this folder, you can keep this
 tmp/*
+!tmp/.gitkeep
+
+# Remove files inside the dist folder, but mantain the folder.
+# This is for hgod-wp-env environment only. If you are developing a 
+# plugin or theme, you will want this folder tracked by git, so REMOVE
+# the two lines below, and the `.gitkeep` file from dist/ folder.
+dist/*
+!dist/.gitkeep

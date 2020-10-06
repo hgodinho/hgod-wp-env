@@ -1,20 +1,21 @@
 <?php
 /**
- * My Plugin
+ * Hgod_wp_env
  *
- * Plugin.
+ * WordPress Dev Environment for plugins and themes
  *
  * @wordpress-plugin
- * Plugin Name: my-plugin
- * Description: Description of your plugin
- * Version: 0.1.0
- * Author:
- * Author URI:
- * Text Domain:
+ * Plugin Name:  My-Plugin
+ * Plugin URI:   https://myurl.com
+ * Description:  The description of my awesome plugin
+ * Version:      0.1.0
+ * Author:       Fulano de Tal
+ * Author URI:   https://fulanodetal.com/
+ * Text Domain:  my_plugin
+ * Prefix:       my_plugin_
  *
- * @package My_package
- * @author  Name Surname <myemail@domain.com>
- * @license MIT
+ * @package Hgod_wp_env
+ * @author hgodinho <hnrq.godinho@gmail.com>
  */
 
 /**
@@ -23,7 +24,7 @@
 class My_Class {
 
 	/**
-	 * Instância
+	 * Instance
 	 *
 	 * @var object
 	 */

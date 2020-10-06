@@ -14,6 +14,16 @@
  * Text Domain:  my_plugin
  * Prefix:       my_plugin_
  *
- * @package Elucidario
+ * @package Hgod_wp_env
  * @author hgodinho <hnrq.godinho@gmail.com>
  */
+
+/**
+ * THIS FILE IS FOR DEVELOPING PURPOSES
+ * 
+ * edit the headers with your options, copy and paste the same header
+ * at dist/class-my-class.php and start coding!
+ * 
+ * YOU MUST EDIT THE LINE BELOW WITH YOUR FILE NAME
+ */
+ require_once 'dist/class-my-class.php';

@@ -4,6 +4,21 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2020-10-05
+
+## Added
+
+- .gitkeep at dist/ and tmp/
+- src/js/modules/module1.js
+
+### Changed
+
+- name hgog-wp-env.php to index.php
+- comments on .gitignore
+- folder structure in README.md
+- added require /modules/modele1.js to scripts.js
+- header src/php/class-my-class.php
+
 ## [0.4.0] - 2020-10-05
 
 ### Changed

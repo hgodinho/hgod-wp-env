@@ -56,22 +56,31 @@ Finally, `composer install` and you are good to go.
     You can now do your magic!
 
 2. **Edit Files**
-   
-   Edit the files from the `src/` folder. You must maintain the same folder structure to ensure the correct functioning of the environment.
 
-   **Folder structure:**
+   Edit the files from the `src/` folder. And the files marker with `[EDIT]` tag at the folder structure below. You must maintain the same folder structure to ensure the correct functioning of the environment.
+
+   *Folder structure:*
 
     ```
-        hgod-wp-env
+    hgod-wp-env
     ├── .eslintrc.json
     ├── .wp-env.json
-    ├── CHANGELOG.md [EDIT this with your own changelog]
-    ├── README.md [EDIT this with your own readme]
-    ├── REFERENCES.md [EDIT this with your own references]
-    ├── composer.json [EDIT to add your deps]
+    ├── CHANGELOG.md [EDIT]
+    ├── README.md [EDIT]
+    ├── REFERENCES.md [EDIT]
+    ├── composer.json [EDIT]
     ├── composer.lock
-    ├─> dist [The folder that you are going to distribute]
-    ├─> gulpfile.babel.js [Gulp taks]
+    ├─> dist [DONT EDIT - AUTOMATIC BUILD!]
+    │   ├── class-my-class.php
+    │   ├─> assets
+    │   │   └── image-1.jpg
+    │   ├─> css
+    │   │   └── styles.css
+    │   ├─> js
+    │   │   └── main.js
+    │   └─> templates
+    │       └── template-part.php
+    ├─> gulpfile.babel.js [EDIT, if you want to customize the babel tasks, but this are good to go]
     │   ├── index.js
     │   └─> modules
     │       ├── assets.babel.js
@@ -83,26 +92,27 @@ Finally, `composer install` and you are good to go.
     │       ├── eslint.babel.js
     │       ├── js.babel.js
     │       └── php.babel.js
-    ├── hgod-wp-env.php [EDIT this, this is the entry point for your wordpress plugin on DEV mode]
-    ├── license.txt
+    ├── index.php [EDIT]
+    ├── license.txt [EDIT]
     ├── package-lock.json
-    ├── package.json [EDIT this to add your deps]
-    ├─> src [Here's where the magic happens.]
-    │   ├─> assets [Keep this folder if you have images]
+    ├── package.json [EDIT]
+    ├─> src
+    │   ├─> assets [EDIT, ADD, REMOVE FILES]
     │   │   └── image-1.jpg
-    │   ├─> js
-    │   │   └── scripts.js [This is the main entry for the js, don't rename this, unless you also rename in the gulp tasks]
-    │   ├─> php [the folder to put your php files]
-    │   │   ├── class-my-class.php [the main plugin file, rename this with your plugin name]
-    │   │   └─> templates [template parts for plugin]
+    │   ├─> js [EDIT, ADD, REMOVE FILES]
+    │   │   ├─> modules
+    │   │   │   └── module1.js
+    │   │   └── scripts.js [EDIT, DONT RENAME]
+    │   ├─> php [EDIT, ADD, REMOVE FILES]
+    │   │   ├── class-my-class.php
+    │   │   └─> templates
     │   │       └── template-part.php
-    │   └─> scss [sass files]
+    │   └─> scss [EDIT, ADD, REMOVE FILES]
     │       ├─> components
     │       │   └── teste1.scss
     │       └── styles.scss
-    └─> tmp [temporary folder used by some gulp tasks]
+    └─> tmp
     ```
-
 
 3. **Stop Environment**
 
