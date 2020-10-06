@@ -13,3 +13,5 @@ tmp/*
 # the two lines below, and the `.gitkeep` file from dist/ folder.
 dist/*
 !dist/.gitkeep
+
+REFERENCES.md

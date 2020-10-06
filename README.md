@@ -3,7 +3,7 @@
 A WordPress development environment.
 
 ***
-Go to: [Changelog](changelog.md) | [License](license.txt) | [References](references.md)
+Go to: [Changelog](CHANGELOG.md) | [License](license.txt)
 ***
 
 #### Table of Contents

@@ -1,8 +1,19 @@
 # Changelog
 
-[Keep a Changelog](https://keepachangelog.com/) | [Semantic Versioning](https://semver.org/)
+[README.md](README.md) | [Keep a Changelog](https://keepachangelog.com/) | [Semantic Versioning](https://semver.org/)
 
 ## [Unreleased]
+
+## [0.5.1] - 2020-10-05
+
+## Changed
+
+- .gitignore
+- README.md correct the links
+
+## Removed
+
+- REFERENCES.md
 
 ## [0.5.0] - 2020-10-05
 
